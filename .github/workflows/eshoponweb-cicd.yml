@@ -16,7 +16,7 @@ jobs:
   #Build, test and publish .net web project in repository
   buildandtest:
     runs-on: ubuntu-latest
-    steps:f
+    steps:
     #checkout the repository
     - uses: actions/checkout@v4
     #prepare runner for desired .net version SDK
